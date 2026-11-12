@@ -15,7 +15,6 @@ public class TransactionAnalyzer {
         this.dateFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
     }
 
-    // Розрахунок загального балансу
     public double calculateTotalBalance() {
         double balance = 0;
         for (Transaction transaction : transactions) {

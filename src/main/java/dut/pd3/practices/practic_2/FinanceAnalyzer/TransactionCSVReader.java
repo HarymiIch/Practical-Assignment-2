@@ -16,7 +16,7 @@ public abstract class TransactionCSVReader {
                 String line;
                 boolean isFirstLine = true;
                 while ((line = br.readLine()) != null) {
-                    if (isFirstLine) { // Пропускаємо заголовок CSV
+                    if (isFirstLine) {
                         isFirstLine = false;
                         continue;
                     }
